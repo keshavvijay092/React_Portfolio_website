@@ -65,7 +65,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["Node", "React", "Tailwind"],
-    link: "/portfolio",
+    link: "#",
   },
   {
     title: "E-Commerce website",
