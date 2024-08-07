@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-
+import project5 from "../assets/projects/project-5.jpg";
 export const HERO_CONTENT = `I am a dedicated college student aspiring to become a skilled full stack developer. Currently, I focus on mastering React, Next.js for front-end, and Node.js, MySQL, MongoDB for back-end. Concurrently, I'm learning Data Structures and Algorithms (DSA) to enhance problem-solving. My goal is to use this knowledge for innovative solutions driving business growth, exceptional user experiences, and societal impact.`;
 
 export const ABOUT_TEXT = `
@@ -15,19 +15,19 @@ I am a dedicated and versatile full stack developer who is constantly working to
 
 export const EXPERIENCES = [
   {
-    year: "2024 - present",
-    role: "React Developer",
-    company: "Celebal",
-    description: `During my Celebal internship, I engaged in a focused React learning program that included weekly learning sessions and project submissions.This structured approach not only deepened my understanding of React but also sharpened my ability to deliver projects consistently.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
     year: "2023 - 2024",
     role: "Chapter-Lead",
     company: "Google Crowdsource Community-Jaipur",
     description: ` Mentored 100+ students at JECRC University and led a team of 30 students in the Google Crowdsource community,Spearheaded 5+ technical workshops, boosting JavaScript, C++, React, and Node.js skills, resulting in a remarkable
    20% surge in engaged community contributorson campus.`,
     technologies: ["React.js", "Javascript", "Node.js"],
+  },
+  {
+    year: "2024 - 2024",
+    role: "React Developer",
+    company: "Celebal",
+    description: `During my Celebal internship, I engaged in a focused React learning program that included weekly learning sessions and project submissions.This structured approach not only deepened my understanding of React but also sharpened my ability to deliver projects consistently.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
     year: "2021 - 2023",
@@ -43,6 +43,14 @@ Coolzone meetings, meetups, and discussion panels.`,
 // constants.js
 
 export const PROJECTS = [
+  {
+    title: "Rustic-Cafe website",
+    image: project5,
+    description:
+      "Developed a robust cafe management system using the MERN stack designed for seamless cafe operations. The system includes features such as menu browsing, detailed item pages,and a reservation option for customers to book tables in advance.",
+    technologies: ["ReactJS", "Express", "MongoDB","NodeJS"],
+    link: "https://mern-hotel-frontend-m888.onrender.com",
+  },
   {
     title: "Book Recommendation System",
     image: project1,
